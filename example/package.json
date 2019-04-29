@@ -1,0 +1,25 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mineraljs/amqp": "0.0.1",
+    "@mineraljs/core": "0.0.1",
+    "@mineraljs/db": "0.0.1",
+    "@mineraljs/http": "0.0.1",
+    "pg": "^7.10.0",
+    "typeorm": "^0.2.16"
+  },
+  "devDependencies": {
+    "ts-node": "^8.1.0",
+    "typescript": "^3.4.5"
+  }
+}

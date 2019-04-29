@@ -1,0 +1,39 @@
+{
+  "name": "@mineraljs/http",
+  "version": "0.0.1",
+  "description": "Mineraljs Http Server",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codelovers-nl/server.git"
+  },
+  "keywords": [
+    "Server"
+  ],
+  "author": "Pascal Wilbrink <info@codelovers.nl>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codelovers-nl/server/issues"
+  },
+  "homepage": "https://github.com/codelovers-nl/server#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "method-override": "^3.0.0",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.17.0",
+    "@types/cors": "^2.8.4",
+    "@types/express": "^4.16.1",
+    "@types/jsonwebtoken": "^8.3.2",
+    "@types/method-override": "0.0.31",
+    "ts-node": "^8.1.0",
+    "typescript": "^3.4.4"
+  }
+}

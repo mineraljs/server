@@ -1,0 +1,22 @@
+{
+  "name": "@mineraljs/core",
+  "version": "0.0.1",
+  "description": "Mineraljs Core",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "Pascal Wilbrink",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^7.0.0",
+    "inversify": "^5.0.1",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^6.1.1",
+    "@types/inversify": "^2.0.33",
+    "@types/winston": "^2.4.4"
+  }
+}
